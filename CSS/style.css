@@ -71,7 +71,7 @@ header img{
 
 /*MOBILE - Header*/
 
-@media only screen and (max-width: 780px){
+@media only screen and (max-width: 780px), (orientation: portrait){
     .header-nav-mobile {
         display: flex;
         align-items: center;
@@ -138,7 +138,7 @@ header img{
 
 /*MOBILE - Main Banner Section */
 
-@media only screen and (max-width: 780px){
+@media only screen and (max-width: 780px), (orientation: portrait){
     .main-block {
         display: flex;
         flex-direction: column;
@@ -275,7 +275,7 @@ header img{
 
 /* MOBILE - Second Level Section */
 
-@media only screen and (max-width: 780px){
+@media only screen and (max-width: 780px), (orientation: portrait){
     .second-level{
         flex-flow: wrap; 
     }
@@ -363,7 +363,7 @@ header img{
 /*MOBILE - Start Learning Subjects */
 
 
-@media only screen and (max-width: 780px){
+@media only screen and (max-width: 780px), (orientation: portrait){
 
     .subject-block-img, .courses, .course-description {
         display: none; 
@@ -470,7 +470,7 @@ header img{
 
 /*MOBILE - Thesis Exhibit Section */
 
-@media only screen and (max-width: 780px){
+@media only screen and (max-width: 780px), (orientation: portrait){
     .thesis-content{
         flex-direction: column; 
         justify-content: center;
@@ -531,7 +531,7 @@ header img{
 
 /*MOBILE - Footer */
 
-@media only screen and (max-width: 780px){
+@media only screen and (max-width: 780px), (orientation: portrait){
     .footer-copyright, .footer-nav {
         font-size: 0.7rem; 
     }
